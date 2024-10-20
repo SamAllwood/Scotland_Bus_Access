@@ -28,17 +28,11 @@ date: last-modified
 
 ## Strathclyde Partnership for Transport Area
 
-::: {layout-ncol="2"}
 ![](Bus_Access_SPT.jpeg)
 
 ![](Bus_Access_SIMD_SPT.jpeg)
-:::
 
-##
-![](Bus_Access_SPT.jpeg){.absolute top="170" left="30" }
-![](Bus_Access_SIMD_SPT.jpeg)
-
-Bad news if you're in the most deprived quintile
+Not good news if you live in Glasgow!
 
 ## Glasgow City Council Area
 
