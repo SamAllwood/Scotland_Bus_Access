@@ -36,8 +36,9 @@ Not good news if you live in Glasgow!
 
 ## Glasgow City Council Area
 
-![](Bus_Access_GCC.jpeg) # {.absolute top="170" left="30" width="400" height="400"}
-![](Bus_Access_SIMD_GCC.jpeg) # {.absolute top="500" left="450" width="400" height="400"}
+![](Bus_Access_GCC.jpeg){width="400" height="400"}
+
+![](Bus_Access_SIMD_GCC.jpeg){width="400" height="400"}
 Even worse news in Glasgow if you're in the more deprived areas!
 
 But! The quintiles are measured across the whole of Scotland, so there are uneven numbers in West of Scotland
@@ -50,5 +51,6 @@ Rather than just showing how much deprivation is concentrated in West of Scotlan
 The SIMD includes a ranking of the Datazones across Scotland. We can use that to calculate
 quintiles of deprivation within each area. 
 
-![](Bus_Access_SIMD_SPT_local.jpeg)# {.absolute top="170" left="30" width="400" height="400"}
-![](Bus_Access_SIMD_GCC_local.jpeg)# {.absolute top="500" left="450" width="400" height="400"}
+![](Bus_Access_SIMD_SPT_local.jpeg)
+
+![](Bus_Access_SIMD_GCC_local.jpeg)
