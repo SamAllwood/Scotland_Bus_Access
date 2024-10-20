@@ -34,3 +34,14 @@ jobs:
         run: quarto render slides.qmd --to pptx
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.email "quarto-github-actions-publish@example.com"
+          git config --global user.name "Quarto GHA Workflow Runner"
+          git add slides.pptx
+          git commit -m "Add rendered slides.pptx"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
