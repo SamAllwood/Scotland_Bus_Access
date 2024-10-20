@@ -19,20 +19,23 @@ date: last-modified
 # bibliography: references.bib
 ---
 
-# Introduction
-
 ## Bus Accessibility Metrics {auto-animate="true"}
 
 - Published by Transport Scotland in 2017 and 2019 by datazone
-- Derived from numbers of buses per hour serving the datazone, ajusted for emphasise peak periods
-- No update in 2021 due to COVID-19, no update since despite requests
-
-Plotting Change between 2017 and 2019, it is clear why they have stopped publishing the data!
+- Derived from numbers of buses per hour serving the datazone, ajusted to emphasise peak periods
+- No update in 2021 due to COVID-19 pandemic and no updates currently foreseen
+- Plotting Change between 2017 and 2019, it is clear why they have stopped publishing the data!
 
 ## Strathclyde Partnership for Transport Area
-### Majority of West of Scotland
-![](Bus_Access_SPT.jpeg){.absolute top="170" left="30" width="400" height="400"}
-![](Bus_Access_SIMD_SPT.jpeg){.absolute top="500" left="450" width="400" height="400"}
+
+::: {layout-ncol="2"}
+![](Bus_Access_SPT.jpeg)
+
+![](Bus_Access_SIMD_SPT.jpeg)
+:::
+##
+![](Bus_Access_SPT.jpeg){.absolute top="170" left="30" }
+![](Bus_Access_SIMD_SPT.jpeg)
 
 Bad news if you're in the most deprived quintile
 
