@@ -1,0 +1,56 @@
+---
+title: West of Scotland Bus Accessibility Analysis
+# subtitle: 
+format: 
+  pptx: default
+ #revealjs: default # this not necessary when using clean-revealjs theme
+  revealjs: 
+    theme: default
+    self-contained: true
+#html-math-method:
+#  method: mathjax
+#  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+author:
+  - name: Sam Allwood
+    orcid: 
+    email: sam.allwood3@gmail.com
+    affiliations: None
+date: last-modified
+# bibliography: references.bib
+---
+
+# Introduction
+
+## Bus Accessibility Metrics {auto-animate="true"}
+
+- Published by Transport Scotland in 2017 and 2019 by datazone
+- Derived from numbers of buses per hour serving the datazone, ajusted for emphasise peak periods
+- No update in 2021 due to COVID-19, no update since despite requests
+
+Plotting Change between 2017 and 2019, it is clear why they have stopped publishing the data!
+
+## Strathclyde Partnership for Transport Area
+### Majority of West of Scotland
+![](data/Bus_Access_SPT.jpeg){.absolute top="170" left="30" width="400" height="400"}
+![](data/Bus_Access_SIMD_SPT.jpeg){.absolute top="500" left="450" width="400" height="400"}
+
+Bad news if you're in the most deprived quintile
+
+## Glasgow City Council Area
+### 
+![](data/Bus_Access_GCC.jpeg){.absolute top="170" left="30" width="400" height="400"}
+![](data/Bus_Access_SIMD_GCC.jpeg){.absolute top="500" left="450" width="400" height="400"}
+Even worse news in Glasgow if you're in the more deprived areas!
+
+But! The quintiles are measured across the whole of Scotland, so there are uneven numbers in West of Scotland
+(and likewise for Glasgow). The percentages show the proportion of the quintile datazones in the region. 
+E.g. 35% of the 1st quintile of deprivation have had reduced bus services. 
+
+How can we present to demonstrate the inequality of bus accessibility reduction? 
+Rather than just showing how much deprivation is concentrated in West of Scotland...
+
+The SIMD includes a ranking of the Datazones across Scotland. We can use that to calculate
+quintiles of deprivation within each area. 
+
+![](data/Bus_Access_SIMD_SPT_local.jpeg){.absolute top="170" left="30" width="400" height="400"}
+![](data/Bus_Access_SIMD_GCC_local.jpeg){.absolute top="500" left="450" width="400" height="400"}

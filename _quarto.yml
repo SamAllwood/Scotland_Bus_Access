@@ -1,0 +1,13 @@
+project:
+  type: website
+  render:
+    - slides.qmd
+
+website:
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Slides"
+        href: slides.qmd
+
