@@ -1,7 +1,3 @@
-project:
-  type: document
-  output-dir: .
-
 format:
   pptx:
     toc: true
