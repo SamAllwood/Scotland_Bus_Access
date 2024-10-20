@@ -1,6 +1,6 @@
 format:
   pptx:
-    toc: true
+    toc: false
     slide-level: 2
 
 website:
