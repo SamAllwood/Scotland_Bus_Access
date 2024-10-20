@@ -37,9 +37,11 @@ SIMD quintiles are set at the national level, and West of Scotland has more high
 
 ## Glasgow City Council Area
 
-![](Bus_Access_GCC.jpeg){width="400" height="400"}
+```{r, echo=FALSE}
+knitr::include_graphics("Bus_Access_GCC.jpeg")
+```
 
-![](Bus_Access_SIMD_GCC.jpeg){width="400" height="400"}
+![](Bus_Access_SIMD_GCC.jpeg){width=80%}
 Even worse news in Glasgow if you're in the more deprived areas!
 
 But! The quintiles are measured across the whole of Scotland, so there are uneven numbers in West of Scotland
@@ -51,8 +53,11 @@ Rather than just showing how much deprivation is concentrated in West of Scotlan
 
 The SIMD includes a ranking of the Datazones across Scotland. We can use that to calculate
 quintiles of deprivation within each area. 
+
 ## Locally derived deprivation quintiles
+
 ![](Bus_Access_SIMD_SPT_local.jpeg)
 Across the West of Scotland, the reductions in bus accessibility are greater in areas of higher deprivation.
+
 ![](Bus_Access_SIMD_GCC_local.jpeg)
 The same is not true in Glasgow, though a reduction of services to 33% of the population over 2 years is unsustainable.
