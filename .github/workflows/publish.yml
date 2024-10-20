@@ -27,9 +27,10 @@ jobs:
       #   with:
       #     cache-version: 1
 
+      - name: Debug - List repository contents
+        run: ls -l
+
       - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: 
+        run: quarto render slides.qmd --to pptx
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
