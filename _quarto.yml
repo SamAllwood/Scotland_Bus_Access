@@ -1,7 +1,11 @@
 project:
-  type: website
-  render:
-    - slides.qmd
+  type: document
+  output-dir: .
+
+format:
+  pptx:
+    toc: true
+    slide-level: 2
 
 website:
   navbar:
@@ -10,4 +14,3 @@ website:
     left:
       - text: "Slides"
         href: slides.qmd
-
