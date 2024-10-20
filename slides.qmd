@@ -28,11 +28,12 @@ date: last-modified
 
 ## Strathclyde Partnership for Transport Area
 
-![](Bus_Access_SPT.jpeg)
-
-![](Bus_Access_SIMD_SPT.jpeg)
-
+![](Bus_Access_SPT.jpeg){width="300" height="400"}
+A good majority of the countryside has the same bus accessibility. But the populated areas have reduced access. 
 Not good news if you live in Glasgow!
+
+![](Bus_Access_SIMD_SPT.jpeg){width="300" height="400"}
+SIMD quintiles are set at the national level, and West of Scotland has more highly deprived areas than it should. 
 
 ## Glasgow City Council Area
 
@@ -50,7 +51,8 @@ Rather than just showing how much deprivation is concentrated in West of Scotlan
 
 The SIMD includes a ranking of the Datazones across Scotland. We can use that to calculate
 quintiles of deprivation within each area. 
-
+## Locally derived deprivation quintiles
 ![](Bus_Access_SIMD_SPT_local.jpeg)
-
+Across the West of Scotland, the reductions in bus accessibility are greater in areas of higher deprivation.
 ![](Bus_Access_SIMD_GCC_local.jpeg)
+The same is not true in Glasgow, though a reduction of services to 33% of the population over 2 years is unsustainable.
