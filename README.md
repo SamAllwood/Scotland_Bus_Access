@@ -4,6 +4,8 @@ datazones across Scotland show declining bus service levels and particularly for
 They are based on frequency of services adjusted to emphasise peak demand hours. The decline between 2017 and 2019 
 is stark.
 
+![](Bus_Access_SPT.jpeg)
+![](Bus_Access_GCC.jpeg)
 
 
 # Reproducible-slides-repo-template
