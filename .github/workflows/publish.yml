@@ -31,7 +31,7 @@ jobs:
         run: ls -l
 
       - name: Render and Publish
-        run: quarto render slides.qmd --to pptx
+        run: quarto render slides.qmd --to html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -39,8 +39,8 @@ jobs:
         run: |
           git config --global user.email "quarto-github-actions-publish@example.com"
           git config --global user.name "Quarto GHA Workflow Runner"
-          git add slides.pptx
-          git commit -m "Add rendered slides.pptx"
+          git add slides.html
+          git commit -m "Add rendered slides.html"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
