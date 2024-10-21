@@ -2,10 +2,7 @@
 title: West of Scotland Bus Accessibility Analysis
 # subtitle: 
 format: 
-output: html
- #revealjs: default # this not necessary when using clean-revealjs theme
-  revealjs: 
-    theme: default
+  html:
     self-contained: true
 #html-math-method:
 #  method: mathjax
