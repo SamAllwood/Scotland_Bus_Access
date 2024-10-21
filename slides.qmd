@@ -37,9 +37,7 @@ SIMD quintiles are set at the national level, and West of Scotland has more high
 
 ## Glasgow City Council Area
 
-```{r, echo=FALSE}
-knitr::include_graphics("Bus_Access_GCC.jpeg")
-```
+![]("Bus_Access_GCC.jpeg")
 
 ![](Bus_Access_SIMD_GCC.jpeg){width=80%}
 Even worse news in Glasgow if you're in the more deprived areas!
